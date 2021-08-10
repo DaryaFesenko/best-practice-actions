@@ -4,8 +4,11 @@ repos:
   hooks:
     - id: go-fmt
     - id: go-imports
-    - id: go-build
 - repo: https://github.com/golangci/golangci-lint
   rev: v1.41.1
   hooks:
     - id: golangci-lint
+- repo: https://github.com/troian/pre-commit-golang
+  sha: HEAD
+  hooks:
+    - id: go-build
