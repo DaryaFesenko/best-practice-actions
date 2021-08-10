@@ -1,14 +1,14 @@
 package duplicate
 
 import (
-	"best-practice-action/pkg/mocks"
+	"best-practice-actions/pkg/mocks"
 	"sort"
 	"strings"
 	"testing"
 
-	"best-practice-action/pkg/helper"
-	"best-practice-action/pkg/models"
-	fa "best-practice-action/pkg/services/fileaction"
+	"best-practice-actions/pkg/helper"
+	"best-practice-actions/pkg/models"
+	fa "best-practice-actions/pkg/services/fileaction"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -52,7 +52,7 @@ func TestDuplicate_GetAllFiles(t *testing.T) {
 }
 
 func TestGetDuplicate(t *testing.T) {
-	path := "/home/d/projects/gb/best-practice-action/test/test_dir"
+	path := "/home/d/projects/gb/best-practice-actions/test/test_dir"
 	testCases := []struct {
 		Name      string
 		path      string

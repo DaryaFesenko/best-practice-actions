@@ -1,12 +1,12 @@
 package main
 
 import (
-	"best-practice-action/pkg/services/duplicate"
+	"best-practice-actions/pkg/services/duplicate"
 	"flag"
 	"fmt"
 	"os"
 
-	"best-practice-action/config"
+	"best-practice-actions/config"
 
 	log "github.com/sirupsen/logrus"
 )
