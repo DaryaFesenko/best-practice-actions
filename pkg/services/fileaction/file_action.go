@@ -8,7 +8,7 @@ import (
 	"io/fs"
 	"sync"
 
-	"best-practice-action/pkg/models"
+	"best-practice-actions/pkg/models"
 
 	log "github.com/sirupsen/logrus"
 )

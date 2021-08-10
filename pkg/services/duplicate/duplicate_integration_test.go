@@ -5,17 +5,17 @@ package duplicate
 import (
 	"testing"
 
-	"best-practice-action/pkg/helper"
+	"best-practice-actions/pkg/helper"
 
-	"best-practice-action/pkg/models"
-	fa "best-practice-action/pkg/services/fileaction"
+	"best-practice-actions/pkg/models"
+	fa "best-practice-actions/pkg/services/fileaction"
 
 	"github.com/stretchr/testify/require"
 )
 
 // проверка интеграции файловой системы
 func TestDuplicate_ReadDirectory(t *testing.T) {
-	path := "/home/d/projects/gb/best-practice-action/test/test_integration"
+	path := "/home/d/projects/gb/best-practice-actions/test/test_integration"
 
 	i := &ioutilStruct{}
 	f := &fa.FileActions{FS: i}

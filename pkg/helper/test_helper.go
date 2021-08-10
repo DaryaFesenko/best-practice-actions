@@ -1,7 +1,7 @@
 package helper
 
 import (
-	"best-practice-action/pkg/models"
+	"best-practice-actions/pkg/models"
 	"crypto/md5"
 	"crypto/sha256"
 	"encoding/hex"

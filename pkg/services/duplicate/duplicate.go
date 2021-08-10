@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"best-practice-action/pkg/models"
-	fa "best-practice-action/pkg/services/fileaction"
+	"best-practice-actions/pkg/models"
+	fa "best-practice-actions/pkg/services/fileaction"
 
 	log "github.com/sirupsen/logrus"
 )
