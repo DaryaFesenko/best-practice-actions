@@ -36,7 +36,7 @@ linters:
     - depguard
     - misspell
     - goimports
-    - gocritic
+    #- gocritic
     - staticcheck
     - deadcode
     - errcheck
